@@ -1,0 +1,119 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c3e0baee4e7fd8707a112d7782bbeef7",
+    "packages": [
+        {
+            "name": "sevenecks/ansi",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/ansi.git",
+                "reference": "54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/ansi/zipball/54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac",
+                "reference": "54921aa60f78a700ab2cf8bad5ea9554e1c2c6ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\Ansi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "This package offers an API to colorize strings of text with various ANSI colors using static methods.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "ansi",
+                "cli",
+                "color",
+                "colors",
+                "console",
+                "shell"
+            ],
+            "support": {
+                "issues": "https://github.com/SevenEcks/ansi/issues",
+                "source": "https://github.com/SevenEcks/ansi/tree/1.0.9"
+            },
+            "time": "2018-09-11T19:26:37+00:00"
+        },
+        {
+            "name": "sevenecks/string-utils",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SevenEcks/string-utils.git",
+                "reference": "3d1fc3cbac2a77d1fbd52c4eca1868f6136ae3a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SevenEcks/string-utils/zipball/3d1fc3cbac2a77d1fbd52c4eca1868f6136ae3a0",
+                "reference": "3d1fc3cbac2a77d1fbd52c4eca1868f6136ae3a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "sevenecks/ansi": "^1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenEcks\\StringUtils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brendan Butts",
+                    "email": "bbutts@stormcode.net"
+                }
+            ],
+            "description": "A collection of string utilities for PHP, loosely based on the LambdaMOO $string_utils package.",
+            "homepage": "https://github.com/sevenecks",
+            "keywords": [
+                "cli",
+                "command line",
+                "console",
+                "formatting",
+                "lambdamoo",
+                "shell",
+                "string"
+            ],
+            "support": {
+                "issues": "https://github.com/SevenEcks/string-utils/issues",
+                "source": "https://github.com/SevenEcks/string-utils/tree/0.1.1"
+            },
+            "time": "2018-10-18T20:08:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

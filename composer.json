@@ -1,0 +1,9 @@
+{
+    "name": "sevenecks/slide-golf",
+    "description": "a package that golfs input text to be as short as possible",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "sevenecks/string-utils": "^0.1.1"
+    }
+}
